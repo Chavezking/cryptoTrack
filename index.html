@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Live prices of cryptos and nfts.</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="./styles/header.css">
+  <link rel="stylesheet" href="./styles/general.css">
+  <link rel="stylesheet" href="./styles/main.css">
+</head>
+
+<body>
+  <!--header starts here-->
+  <header>
+    <div>
+    <div class="top-section">
+      <img src="./images/logo/cryptoTrackLogo.png" class="site-logo">
+      <!--<p class="site-logo">CryptoTrack</p>-->
+    </div>
+    <div class="bottom-section">
+      <input type="text" class="search-bar" placeholder="Search a cryptocurrency">
+      <button class="search-button">
+        Search
+      </button>
+    </div>
+    </div>
+  </header>
+  <!--header ends here-->
+  <!--main section starts here-->
+  <main>
+    <p class="live-crypto-heading">
+      📉 Live Cryptocurrency Prices and Market Cap.
+    </p>
+    <div class="search-result-section">
+    <p class="search-result-heading">
+      🔍 Search Result:
+    </p>
+    <!--search result section starts-->
+    <div class="search-result">
+    </div>
+    <!--search result section ends-->
+    </div>
+    <!--trending section starts-->
+    <div class="trending-section">
+    <p class="trending-heading">
+      🔥 Trending
+    </p>
+    </div>
+    <!--trending section ends-->
+     <!--top mcap section starts-->
+    <div class="topmcap-section">
+    <p class="trending-heading">
+      💸 Top Market Cap
+    </p>
+    </div>
+    <!--topmcap section ends-->
+    <div class="table-section">
+    <table class="crypto-info-table">
+      <thead class="table-head">
+       <tr class="row1">
+        <th>#</th>
+        <th>Coin</th>
+        <th>Price</th>
+        <th>24h</th>
+        <th>24h Volume</th>
+        <th>Market Cap</th>
+      </tr>
+      </thead>
+      <tbody class="table-body">
+      </tbody>
+    </table>
+    </div>
+    <div class="goto-section">
+    <label>
+      Go to page: 
+    </label>
+    <input type="number" class="page-input" value="1">
+    <button class="enter-button">
+      Enter
+    </button>
+    </div>
+    <p class="credit">
+      Powered by 
+      <a href="https://coingecko.com/" class="coingecko-link">
+        CoinGecko
+        </a>
+        Api
+        </p>
+  </main>
+  <!--main section ends here-->
+  <script src="./js/main.js"></script>
+</body>
+</html>
