@@ -22,6 +22,7 @@
   border-radius: 12px;
   padding-left: 16px;
   padding-right: 14px;
+  overflow: auto;
   /*font-weight: 500;*/
 }
 
@@ -54,6 +55,7 @@
   flex-direction: column;
   /*font-weight: 500;*/
   gap: 18px;
+  overflow: auto;
 }
 
 .topmcap-section {
@@ -70,6 +72,7 @@
   display: flex;
   flex-direction: column;
   gap: 18px;
+  overflow: auto;
   /*font-weight: 500;*/
 }
 
