@@ -195,7 +195,10 @@ label {
 
 /*Responsivenes for landscape mode*/
 @media (min-width: 577px) and (max-width :768px) {
-    .trending-section {
+   .search-result-section {
+       width: 550px;
+   }
+  .trending-section {
       width: 550px;
     }
     
