@@ -201,6 +201,10 @@ label {
    .search-result-section {
        width: 550px;
    }
+
+   .search-result {
+       width: 550px;
+   }
   .trending-section {
       width: 550px;
     }
